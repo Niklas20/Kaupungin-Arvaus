@@ -1,20 +1,19 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainMenu from "./pages/MainScreen/MainScreen";
+import InfoScreen from "./pages/InfoScreen/InfoScreen";
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <MainMenu />,
-        children: [
-            {
-                path: "/",
-                element: <MainMenu />
-            },
-            {
-                path: "*",
-                element: <MainMenu />
-            }
-        ]
+        element: <MainMenu />
+    },
+    {
+        path: "/info",
+        element: <InfoScreen />
+    },
+    {
+        path: "*",
+        element: <MainMenu />
     }
 ])
 
