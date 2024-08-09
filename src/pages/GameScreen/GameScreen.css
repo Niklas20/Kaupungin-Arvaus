@@ -15,6 +15,7 @@
     height: 300px;
     width: 250px;
     overflow-y: auto;
+    background-color: white;;
 }
 
 .game-screen-search-bar input
