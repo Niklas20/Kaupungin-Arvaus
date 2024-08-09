@@ -1,11 +1,18 @@
-.main-screen-title
+.info-screen-title
 {
     font-size: 2rem;
     margin-top: 1rem;
     text-align: center;
 }
 
-.main-screen-button
+.info-screen-text-1
+{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.info-screen-button
 {
     position: absolute;
     left: 50%;
@@ -18,12 +25,7 @@
     border-radius: 5px;
 }
 
-.main-screen-button:hover
+.info-screen-button:hover
 {
     background-color: rgb(200, 200, 200);
-}
-
-.main-screen-button:active
-{
-    transform: translateX(-50%) translateY(1px);
 }
