@@ -12,7 +12,7 @@ const Layout = () => {
         navigate("/");
     }
 
-    const handleHelpButtonClick = () => {
+    const handleMotiveButtonClick = () => {
         navigate("/");
     }
 
@@ -21,8 +21,8 @@ const Layout = () => {
             <Outlet />
             <div className="buttons-container">
                 <button className="exit-button" onClick={handleExitButtonClick}>Exit</button>
-                <button className="info-button" onClick={handleInfoButtonClick}>Info</button>
-                <button className="help-button" onClick={handleHelpButtonClick}>Help</button>
+                <button className="info-button" onClick={handleInfoButtonClick}>Help</button>
+                <button className="motive-button" onClick={handleMotiveButtonClick}>Motive</button>
             </div>
         </div>
     );

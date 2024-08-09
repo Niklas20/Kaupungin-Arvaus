@@ -29,3 +29,39 @@
     height: 100%;
     box-shadow: inset rgba(0, 0, 0, 0.5) -3px -3px 5px, inset rgba(255, 255, 255, 0.8) 3px 3px 5px, rgba(0, 0, 0, 0.7) 3px 3px 5px -3px;
 }
+
+.exit-button
+{
+    background-color: transparent;
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    right: 1%;
+    border: none;
+
+    background-image: url(./imgs/exitButton.png);
+}
+
+.motive-button 
+{
+    background-color: transparent;
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    right: 11%;
+    border: none;
+
+    background-image: url(./imgs/motiveButton.png);
+}
+
+.info-button 
+{
+    background-color: transparent;
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    right: 6%;
+    border: none;
+
+    background-image: url(./imgs/infoButton.png);
+}
