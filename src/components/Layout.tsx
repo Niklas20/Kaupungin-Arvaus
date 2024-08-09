@@ -1,6 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import Button from './Button/Button';
+import exitButtonImage from "../imgs/exitButton.png";
 
 const Layout = () => {
     const navigate = useNavigate();
@@ -21,13 +22,11 @@ const Layout = () => {
         <div className="layout-container">
             <Outlet />
             <div className="buttons-container">
-                <Button 
+                <Button
                     className='exit-button'
-                    image='./imgs/exitButton.png'
+                    image={exitButtonImage}
                     text='Exit'
                     onClick={handleExitButtonClick}
-                    width={32}
-                    height={32}
                 />
             </div>
         </div>

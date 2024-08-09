@@ -3,17 +3,12 @@ interface ButtonProps {
     image?: string;
     text?: string;
     onClick?: () => void;
-    width?: number;
-    height?: number;
 }
 
 const Button = (props: ButtonProps) => {
     const styles = {
         backgroundImage: `url(${props.image})`,
-        width: props.width,
-        height: props.height
-    }
-
+    };
     return (
         <div className={props.className}>
             <button
