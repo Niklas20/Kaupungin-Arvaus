@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainMenu from "./pages/MainScreen/MainScreen";
 import InfoScreen from "./pages/InfoScreen/InfoScreen";
 import GameScreen from "./pages/GameScreen/GameScreen";
+import EndScreen from "./pages/EndScreen/EndScreen";
 
 const router = createBrowserRouter([
     {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
     {
         path: "/game",
         element: <GameScreen />
+    },
+    {
+        path: "/end",
+        element: <EndScreen />
     },
     {
         path: "*",
