@@ -1,0 +1,13 @@
+.end-screen-title
+{
+    font-size: 4rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.end-screen-restart-button
+{
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+}
