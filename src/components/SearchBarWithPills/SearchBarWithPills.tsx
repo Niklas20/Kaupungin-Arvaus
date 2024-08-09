@@ -38,7 +38,7 @@ const SearchBarWithPills = (props: SearchBarWithPillsProps) => {
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
             />
-            <div className="options">
+            <div>
                 {options.length > 0 ? options : <div className="no-results">No results found</div>}
             </div>
         </div>
