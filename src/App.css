@@ -38,8 +38,6 @@
     width: 32px;
     right: 1%;
     border: none;
-
-    background-image: url(./imgs/exitButton.png);
 }
 
 .motive-button 
@@ -50,8 +48,6 @@
     width: 32px;
     right: 11%;
     border: none;
-
-    background-image: url(./imgs/motiveButton.png);
 }
 
 .info-button 
@@ -62,6 +58,4 @@
     width: 32px;
     right: 6%;
     border: none;
-
-    background-image: url(./imgs/infoButton.png);
 }
