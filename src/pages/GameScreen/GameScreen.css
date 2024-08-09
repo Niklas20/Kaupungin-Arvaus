@@ -4,3 +4,25 @@
     margin-top: 1rem;
     text-align: center;
 }
+
+.game-screen-search-bar
+{
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 5px;
+    right: 5%;
+    bottom: 5%;
+    height: 300px;
+    width: 250px;
+    overflow-y: auto;
+}
+
+.game-screen-search-bar input
+{
+    text-align: center;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 1px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
