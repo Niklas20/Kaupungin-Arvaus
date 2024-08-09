@@ -1,0 +1,84 @@
+{
+    "cities": [
+        {
+            "name": "Helsinki",
+            "image": "imgs/helsinki.jpg",
+            "estimate_image": "imgs/helsinki_estimate.jpg",
+            "founded": 1550,
+            "size": "715,48 km²",
+            "population": 674500
+        },
+        {
+            "name": "Espoo",
+            "image": "imgs/espoo.jpg",
+            "estimate_image": "imgs/espoo_estimate.jpg",
+            "founded": 1458,
+            "size": "528,03 km²",
+            "population": 314024
+        },
+        {
+            "name": "Tampere",
+            "image": "imgs/tampere.jpg",
+            "estimate_image": "imgs/tampere_estimate.jpg",
+            "founded": 1779,
+            "size": "689,59 km²",
+            "population": 255050
+        },
+        {
+            "name": "Vantaa",
+            "image": "imgs/vantaa.jpg",
+            "estimate_image": "imgs/vantaa_estimate.jpg",
+            "founded": 1972,
+            "size": "240,35 km²",
+            "population": 247443
+        },
+        {
+            "name": "Oulu",
+            "image": "imgs/oulu.jpg",
+            "estimate_image": "imgs/oulu_estimate.jpg",
+            "founded": 1605,
+            "size": "3817,52 km²",
+            "population": 214633
+        },
+        {
+            "name": "Turku",
+            "image": "imgs/turku.jpg",
+            "estimate_image": "imgs/turku_estimate.jpg",
+            "founded": 1229,
+            "size": "245,67 km²",
+            "population": 201863
+        },
+        {
+            "name": "Jyväskylä",
+            "image": "imgs/jyvaskyla.jpg",
+            "estimate_image": "imgs/jyvaskyla_estimate.jpg",
+            "founded": 1837,
+            "size": "1176,48 km²",
+            "population": 147746
+        },
+        {
+            "name": "Kuopio",
+            "image": "imgs/kuopio.jpg",
+            "estimate_image": "imgs/kuopio_estimate.jpg",
+            "founded": 1775,
+            "size": "432,35 km²",
+            "population": 124021
+        },
+        {
+            "name": "Lahti",
+            "image": "imgs/lahti.jpg",
+            "estimate_image": "imgs/lahti_estimate.jpg",
+            "founded": 1905,
+            "size": "135,02 km²",
+            "population": 120693
+        },
+        {
+            "name": "Pori",
+            "image": "imgs/pori.jpg",
+            "estimate_image": "imgs/pori_estimate.jpg",
+            "founded": 1558,
+            "size": "135,33 km²",
+            "population": 83106
+        }
+    ]
+}
